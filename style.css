@@ -1,0 +1,74 @@
+* {
+margin: 0;
+padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.center{
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+.top{
+    padding-top: 5px;
+    width: 1920;
+    margin: 0 auto; 
+}
+.header{
+    padding-top: 51px;
+    /* padding-bottom: 48px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.menu{
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    
+}
+#redl{
+    color: red;
+  }
+.top_content{
+    /* margin-top: 21px; */
+    /* margin-bottom: 97px; */
+    padding-top: 94px;;
+    display: flex;
+    gap: 94px;
+}
+/* .top_info{
+  
+    align-items: center;
+} */
+.title{
+    width: 522px;
+     margin-bottom: 17px; 
+    font-size: 60px;
+}
+.text{
+    width: 466px;
+    margin-bottom: 37px;
+    font-size: 20px;
+}
+.top_buttons{
+display: flex;
+align-items: center;
+justify-content:left;
+gap:72px;
+
+}
+.button{
+    font-size: 15px;
+    align-items: center;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 259px;
+}
+
